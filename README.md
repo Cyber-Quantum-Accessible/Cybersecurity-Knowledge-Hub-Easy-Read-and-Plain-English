@@ -23,7 +23,7 @@ You can test <ins>CyberSecurity Knowledge Hub</ins> as per below 👇<br>
  you can simply <b>hover</b> over the element you will see a <b>tooltip</b> of access key. You have to just <b>press</b> that key & see the magic.<br>
 
  Home 👉 <b>H</b><br>
- About 👉 <b>A</b><br>
+ About Us 👉 <b>A</b><br>
  CyberSecurity Knowledge Hub 👉 <b>C</b><br>
  Resources 👉 <b>R</b><br>
  Australian and New Zealand Laws 👉 <b>L</b><br>
@@ -76,22 +76,20 @@ https://PankajBaliyan.github.io/Accessibility/
 Learnt how to make the content for Cybersecurity accessible for those who might have poor to limited knowledge of English, due to disabilities. 
 For example, Auslan stands for Australian Sign Language and not everyone who signs that learns English is able to get the grammar correctly or understand. 
 
+<!--- 
 ## Repository to run locally
 
-Clone the project
-
+Clone the project 
 ```bash
-  git clone https://PankajBaliyan.github.io/Accessibility/
+  git clone https://github.com/Cyber-Quantum-Accessible/Cybersecurity-Knowledge-Hub-Easy-Read-and-Plain-English.git
 ```
 
 Go to the project directory
-
 ```bash
-  cd my-project
+  cd Cyber-Quantum-Accessible
 ```
 
 Start code editor
-
 ```bash
   code .
 ```
@@ -100,6 +98,7 @@ Start code editor
 
 ![App Screenshot](./preview.webp)
 
+--->
 
 ## Feedback and Support
 
