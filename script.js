@@ -1,3 +1,6 @@
+ <script type="text/javascript" src="node_modules/accessibility/dist/main.bundle.js"></script>
+
+
 // function that write text in typing effect and also remove it letter by letter
 const text = "Cybersecurity Accessibility";
 let index = 0;
