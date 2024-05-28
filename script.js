@@ -32,7 +32,7 @@ window.onload = type;
 
 //function to trap focus inside my web page
 window.addEventListener("keydown", function (event) {
-    if (event.key === "Tab") {
+    if (event.key === "Alt") {
         event.preventDefault();
         const focusableElements = Array.from(document.querySelectorAll("a[href], button, textarea, input[type='text'], input[type='radio'], input[type='checkbox'], select"));
         const firstFocusableElement = focusableElements[0];
