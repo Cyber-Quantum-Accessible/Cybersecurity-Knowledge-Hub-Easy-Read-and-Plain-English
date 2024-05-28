@@ -1,6 +1,3 @@
- <script type="text/javascript" src="node_modules/accessibility/dist/main.bundle.js"></script>
-
-
 // function that write text in typing effect and also remove it letter by letter
 const text = "Cybersecurity Accessibility";
 let index = 0;
@@ -32,7 +29,7 @@ window.onload = type;
 
 //function to trap focus inside my web page
 window.addEventListener("keydown", function (event) {
-    if (event.key === "Alt") {
+    if (event.key === "Tab") {
         event.preventDefault();
         const focusableElements = Array.from(document.querySelectorAll("a[href], button, textarea, input[type='text'], input[type='radio'], input[type='checkbox'], select"));
         const firstFocusableElement = focusableElements[0];
@@ -59,12 +56,10 @@ window.addEventListener("keydown", function (event) {
 const buttons = document.querySelectorAll("button");
 const audioFiles = [
     "./Audio_Files/Home.mp3",
-    "./Audio_Files/Easy-English.mp3"
-    "./Audio_Files/Plain-English.mp3"
-    "./Audio_Files/Blog.mp3"
-    "./Audio_Files/Resources.mp3"
-    "./Audio_Files/ANZ-Laws.mp3"
-    "./Audio_Files/Contact-Us.mp3"
+    "./Audio_Files/About.mp3",
+    "./Audio_Files/Projects.mp3",
+    "./Audio_Files/Blog.mp3",
+    "./Audio_Files/Contact.mp3"
 ];
 let currentAudio = null;
 
