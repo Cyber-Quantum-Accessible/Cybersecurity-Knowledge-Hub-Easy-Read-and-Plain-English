@@ -61,7 +61,7 @@ const audioFiles = [
     "./Audio_Files/Blog.mp3",
     "./Audio_Files/Home.mp3",
     "./Audio_Files/Home.mp3",
-    "./Audio_Files/Contact.mp3"
+    "./Audio_Files/Contact-Us.mp3"
 ];
 let currentAudio = null;
 
