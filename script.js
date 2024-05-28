@@ -56,6 +56,7 @@ window.addEventListener("keydown", function (event) {
 const buttons = document.querySelectorAll("button");
 const audioFiles = [
     "./Audio_Files/Home.mp3",
+    "./Audio_Files/About.mp3",
     "./Audio_Files/Home.mp3",
     "./Audio_Files/Home.mp3",
     "./Audio_Files/Blog.mp3",
