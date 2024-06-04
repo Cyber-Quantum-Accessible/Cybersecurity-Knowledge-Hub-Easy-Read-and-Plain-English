@@ -39,23 +39,30 @@ input[type=submit]:hover {
 </head>
 <body>
 
-<h3>Contact Form</h3>
+<h3>Contact Us Form</h3>
 
 <div class="container">
   <form action="/action_page.php">
-    <label for="fname">First Name</label>
+    <label for="fname"> Name </label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="enquiry"> Enquiry Type </label>
+	<select id="enquiry" name="enquiry">
+		<option value="complaint">Suggestions/Improvements</option>
+		<option value="feedback"> Other Feedback</option>
+		<option value="complaint">Complaints </option>
+		<option value="issues"> Other issues </option>
+		</select>
 
     <label for="country">Country</label>
     <select id="country" name="country">
       <option value="australia">Australia</option>
       <option value="canada">Canada</option>
       <option value="usa">USA</option>
-	  <option value="usa">New Zealand</option>
-	  <option value="usa">United Kingdom</option>
+	  <option value="new-zealand">New Zealand</option>
+	  <option value="united-kingdom">United Kingdom</option>
+	  <option value="France">France</option>
+	  <option value="France">China</option>
     </select>
 
     <label for="subject">Subject</label>
