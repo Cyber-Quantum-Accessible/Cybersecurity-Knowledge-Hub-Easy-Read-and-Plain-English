@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
 body {
   display: flex;
   flex-direction: column;
