@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-text-color: black;
+  --main-background-color: #C9C5EB;
+  --link-text-color: white;
+  --button-body-color: #484297;
+  --button-border-color: black;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--background-color);
+}
+
 html.large-text { font-size: 22px; }
 .vis-hidden {
 visibility: hidden;
@@ -59,7 +72,7 @@ background-image: url("https://cdn.prod.website-files.com/651b46748bd161efb91683
 }
 
 a {
-  color: white;
+  color: var(--link-text-color);
 }
 
 a:visited {
@@ -74,7 +87,8 @@ body {
   position: relative;
   min-height: 100vh;
   font-family: Hack, monospace;
-  background-color: #C9C5EB;
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
 }
 
 .info {
@@ -113,11 +127,11 @@ body {
 /* * Button Styling Start */
 
 button {
-  background-color: #484297;
+  background-color: var(--button-body-color);
   font-size: 24px;
   padding: 10px 50px;
   border-style: double;
-  border-color: #000000;
+  border-color: var(--button-border-color);
 }
 
 button::first-letter{
