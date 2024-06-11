@@ -4,6 +4,60 @@
   box-sizing: border-box;
 }
 
+html.large-text { font-size: 22px; }
+.vis-hidden {
+visibility: hidden;
+}
+
+#accessibility-tools-section {
+position: fixed;
+left: 20px;
+bottom: 120px;
+color: white;
+z-index: 9998;
+}
+
+#accessibility-tools-bar {
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+color: white;
+z-index: 9999;
+font-size: 20px;
+font-weight: 600;
+}
+
+.tk-tooltips {
+display: none;
+position: absolute;
+top: 0%;
+color: black;
+background-color: #eaeef1;
+padding: 15px;
+border-radius: 8px;
+min-width: 320px;
+transform: translateY(-90%);
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.tk-tooltips p {
+font-size: 18px;
+line-height: 1.3em;
+font-family: "Poppins", sans-serif;
+font-weight: 500;
+}
+
+.tk-tooltips__arrow {
+position: absolute;
+width: 20px;
+height: 20px;
+background-size: cover;
+transform: rotateZ(45deg);
+transform: translateY(3px);
+background-image: url("https://cdn.prod.website-files.com/651b46748bd161efb9168344/654accdce33a37e9735d5c64_play.png");
+}
+
 a {
   color: white;
 }
