@@ -12,6 +12,7 @@ body {
   position: relative;
   min-height: 100vh;
   font-family: Hack, monospace;
+  background-color: #DBF9FC;
 }
 
 .info {
