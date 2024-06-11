@@ -54,7 +54,8 @@ button {
   color: #484297;
   font-size: 24px;
   padding: 10px 50px;
-  border: none;
+  border-style: double;
+  border-color: #000000;
 }
 
 button::first-letter{
