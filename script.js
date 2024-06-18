@@ -55,6 +55,7 @@ window.addEventListener("keydown", function (event) {
 // function to play audio files related to button, on focus
 const buttons = document.querySelectorAll("button");
 const audioFiles = [
+    "./Audio_Files/Colour.mp3",
     "./Audio_Files/Home.mp3",
     "./Audio_Files/About.mp3",
     "./Audio_Files/Home.mp3",
