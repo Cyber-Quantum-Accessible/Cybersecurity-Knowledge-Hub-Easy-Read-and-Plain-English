@@ -211,7 +211,7 @@ body {
 
 /* * Button Styling Start */
 
-button {
+nav.button {
   background-color: var(--button-body-color);
   font-size: 24px;
   padding: 10px 50px;
@@ -219,16 +219,16 @@ button {
   border-color: var(--button-border-color);
 }
 
-button::first-letter{
+nav.button::first-letter{
   text-decoration: underline;
 }
 
-button:focus-visible{
+nav.button:focus-visible{
   outline: -webkit-focus-ring-color auto 5px;
 }
 
 /* ! Button Styling End */
 
-.button-outline{
+nav.button-outline{
   outline: -webkit-focus-ring-color auto 5px;
 }
