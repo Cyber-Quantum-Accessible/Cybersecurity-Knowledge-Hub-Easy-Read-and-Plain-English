@@ -12,6 +12,10 @@
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
+    font-family: system-ui;
+    background: #f06d06;
+    color: white;
+    text-align: center;
   }
   
   #myBtn:hover {

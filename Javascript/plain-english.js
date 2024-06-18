@@ -1,9 +1,4 @@
-<style>
-
-body {
-font-family: Arial, Helvetica, sans-serif
-}
-</style>
+document.getElementsByTagName("h1")[0].style.fontSize = "6vw";
 
 // Get the button:
 let mybutton = document.getElementById("myBtn");

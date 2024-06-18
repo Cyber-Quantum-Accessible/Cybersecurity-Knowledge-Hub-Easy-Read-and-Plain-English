@@ -1,6 +1,6 @@
 # Accessibility
 
-This website is in Easy Read English for people with disabilities and some Plain English formatting, with some pictures. 
+This website is in Easy English and Plain English for people with disabilities with pictures to help guide the knowledge on cybersecurity. 
 Some of the website content in the process is for those with non-verbal communication, and using completely just pictures
 
 ## Button Audio Playback
@@ -61,9 +61,6 @@ Please adhere to this project's `code of conduct`.
 
 
 ## Demo
-https://accessibility-cwp.vercel.app
-<br><br>
-https://PankajBaliyan.github.io/Accessibility/
 
 
 
