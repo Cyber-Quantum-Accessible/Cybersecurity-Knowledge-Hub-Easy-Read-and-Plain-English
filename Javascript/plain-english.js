@@ -1,3 +1,10 @@
+<style>
+
+body {
+font-family: Arial, Helvetica, sans-serif
+}
+</style>
+
 // Get the button:
 let mybutton = document.getElementById("myBtn");
 
