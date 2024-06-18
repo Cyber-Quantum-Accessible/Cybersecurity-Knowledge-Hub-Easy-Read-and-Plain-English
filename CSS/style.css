@@ -102,6 +102,38 @@ nav.active .icon .line2 {
   transform: rotate(765deg) translateY (-5.5px);
 }
 
+.tritcolour{
+  --main-text-color: black;
+  --main-background-color: #FEE1E6;
+  --link-text-color: white;
+  --button-body-color: #6584A3;
+  --button-border-color: black;
+}
+
+.deutcolour{
+  --main-text-color: black;
+  --main-background-color: #E6E596;
+  --link-text-color: white;
+  --button-body-color: #0031A2;
+  --button-border-color: black;
+}
+
+.monocolour{
+  --main-text-color: black;
+  --main-background-color: #CDDCD9;
+  --link-text-color: white;
+  --button-body-color: #142225;
+  --button-border-color: black;
+}
+
+.defacolour{
+  --main-text-color: black;
+  --main-background-color: #C9C5EB;
+  --link-text-color: white;
+  --button-body-color: #484297;
+  --button-border-color: black;
+}
+
 html.large-text { font-size: 22px; }
 .vis-hidden {
 visibility: hidden;
