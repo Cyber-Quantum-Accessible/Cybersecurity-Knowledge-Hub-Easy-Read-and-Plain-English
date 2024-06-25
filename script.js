@@ -27,6 +27,22 @@ function type() {
 
 window.onload = type;
 
+document.querySelector('#tritbutton').addEventListener('click', () => {
+  document.querySelector('#trit').classList.add('tritcolour');
+}); 
+
+document.querySelector('#deutbutton').addEventListener('click', () => {
+  document.querySelector('#deut').classList.add('deutcolor');
+}); 
+
+document.querySelector('#monobutton').addEventListener('click', () => {
+  document.querySelector('#mono').classList.add('monocolor');
+}); 
+
+document.querySelector('#typbutton').addEventListener('click', () => {
+  document.querySelector('#typ').classList.add('defacolour');
+}); 
+
 //function to trap focus inside my web page
 window.addEventListener("keydown", function (event) {
     if (event.key === "Tab") {
