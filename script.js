@@ -27,21 +27,27 @@ function type() {
 
 window.onload = type;
 
-document.querySelector('#tritbutton').addEventListener('click', () => {
-  document.querySelector('#trit').classList.add('tritcolour');
-}); 
+// Javascript for changing background colors
 
-document.querySelector('#deutbutton').addEventListener('click', () => {
-  document.querySelector('#deut').classList.add('deutcolour');
-}); 
+function typColour()
+{
+    document.getElementById('typ').setAttribute("class", "typcolour");
+}
 
-document.querySelector('#monobutton').addEventListener('click', () => {
-  document.querySelector('#mono').classList.add('monocolour');
-}); 
+function tritColour()
+{
+    document.getElementById('trit').setAttribute("class", "tritcolour");
+}
 
-document.querySelector('#typbutton').addEventListener('click', () => {
-  document.querySelector('#typ').classList.add('defacolour');
-}); 
+function deutColour()
+{
+    document.getElementById('deut').setAttribute("class", "deutcolour");
+}
+
+function monoColour()
+{
+    document.getElementById('mono').setAttribute("class", "monocolour");
+}
 
 //function to trap focus inside my web page
 window.addEventListener("keydown", function (event) {
