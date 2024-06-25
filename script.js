@@ -32,11 +32,11 @@ document.querySelector('#tritbutton').addEventListener('click', () => {
 }); 
 
 document.querySelector('#deutbutton').addEventListener('click', () => {
-  document.querySelector('#deut').classList.add('deutcolor');
+  document.querySelector('#deut').classList.add('deutcolour');
 }); 
 
 document.querySelector('#monobutton').addEventListener('click', () => {
-  document.querySelector('#mono').classList.add('monocolor');
+  document.querySelector('#mono').classList.add('monocolour');
 }); 
 
 document.querySelector('#typbutton').addEventListener('click', () => {
