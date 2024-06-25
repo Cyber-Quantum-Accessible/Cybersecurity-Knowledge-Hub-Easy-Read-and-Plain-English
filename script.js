@@ -114,15 +114,6 @@ buttons.forEach((button, index) => {
         button.classList.remove("button-outline");
     });
 
-
-    //set tooltip to buttons
-    tippy(button, {
-        content: `Tooltip = ${button.innerHTML.charAt(0)}`
-    });
-
-    button.setAttribute("tabindex", "0");
-});
-
 document.addEventListener("keydown", event => {
     if (event.key === "Enter") {
         const focusedButton = document.activeElement;
