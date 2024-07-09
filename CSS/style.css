@@ -56,6 +56,14 @@
   background-color: #142225;
 }
 
+.typbody{
+  background-color: #C9C5EB;
+}
+
+.typbutton{
+  background-color: #484297;
+}
+
 .defacolour{
   --main-text-color: black;
   --main-background-color: #C9C5EB;
