@@ -22,15 +22,15 @@ nav {
   padding: 20px;
   width: 80px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: right;
+  align-items: right;
   border-radius: 3px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   transition: width .6s linear;
 }
 
 nav.active{
-  width: 350px;
+  height: 350px;
 }
 
 nav ul {
