@@ -1,0 +1,16 @@
+String.prototype.toJadenCase = function () {
+
+  function capitalizeFirstLetter(string) {
+      return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+  
+  return this.split(' ').map(capitalizeFirstLetter).join(' ');
+};
+
+describe("Tests", () => {
+  it("test", () => {
+var str = "How can mirrors be real if our eyes aren't real";
+Test.assertEquals(str.toJadenCase(), "How Can Mirrors Be Real If Our Eyes Aren't Real");
+
+  });
+});
