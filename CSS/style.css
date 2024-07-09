@@ -23,6 +23,7 @@ body {
     padding: 5px;;
     width: 75px;
     border: true;
+    border-style: dashed;
     z-index: 100;
     position: fixed;
     bottom: 50px;
