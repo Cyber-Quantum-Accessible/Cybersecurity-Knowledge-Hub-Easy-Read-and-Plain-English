@@ -12,11 +12,6 @@
   --button-border-color: black;
 }
 
-body {
-  color: var(--text-color);
-  background: var(--background-color);
-}
-
 .color-menu {
     font-family: sans-serif;
     background: #d3d3d3;
@@ -36,28 +31,29 @@ body {
     display: block;
     color: black;
   }
-.tritcolour{
-  --main-text-color: black;
-  --main-background-color: #FEE1E6;
-  --link-text-color: white;
-  --button-body-color: #6584A3;
-  --button-border-color: black;
+
+.tritbody{
+  background-color: #FEE1E6;
 }
 
-.deutcolour{
-  --main-text-color: black;
-  --main-background-color: #E6E596;
-  --link-text-color: white;
-  --button-body-color: #0031A2;
-  --button-border-color: black;
+.tritbutton{
+  background-color: #6584A3;
 }
 
-.monocolour{
-  --main-text-color: black;
-  --main-background-color: #CDDCD9;
-  --link-text-color: white;
-  --button-body-color: #142225;
-  --button-border-color: black;
+.deutbody{
+  background-color: #E6E596;
+}
+
+.deutbutton{
+  background-color: #0031A2;
+}
+
+.monobody{
+  background-color: #CDDCD9;
+}
+
+.monobutton{
+  background-color: #142225;
 }
 
 .defacolour{
