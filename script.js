@@ -27,6 +27,16 @@ function type() {
 
 window.onload = type;
 
+// Coding for the toolbar
+
+const toggle = document.getElementById("toggle");
+const nav = document.getElementById("nav");
+
+toggle.addEventListener("click", ()=>
+  {
+  nav.classList.toggle("active");
+});
+
 // Javascript for changing background colors
 
 function typColour()
