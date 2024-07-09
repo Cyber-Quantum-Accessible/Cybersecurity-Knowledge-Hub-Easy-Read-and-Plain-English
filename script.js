@@ -39,24 +39,32 @@ toggle.addEventListener("click", ()=>
 
 // Javascript for changing background colors
 
-function typColour()
-{
-    document.getElementById('typ').setAttribute("class", "typcolour");
+function tritcolour() {
+  var element = document.body;
+  element.classList.toggle("tritbody");
+  var element = document.index;
+  element.classList.toggle("tritbutton");
 }
 
-function tritColour()
-{
-    document.getElementById('trit').setAttribute("class", "tritcolour");
+function deutcolour() {
+  var element = document.body;
+  element.classList.toggle("deutbody");
+  var element = document.index;
+  element.classList.toggle("deutbutton");
 }
 
-function deutColour()
-{
-    document.getElementById('deut').setAttribute("class", "deutcolour");
+function tritcolour() {
+  var element = document.body;
+  element.classList.toggle("monobody");
+  var element = document.index;
+  element.classList.toggle("monobutton");
 }
 
-function monoColour()
-{
-    document.getElementById('mono').setAttribute("class", "monocolour");
+function typcolour() {
+  var element = document.body;
+  element.classList.toggle("typbody");
+  var element = document.index;
+  element.classList.toggle("typbutton");
 }
 
 //function to trap focus inside my web page
