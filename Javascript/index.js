@@ -1,5 +1,3 @@
-<script>
-    
 function tritColour() {
   var element = document.body;
   element.classList.toggle("tritbody");
@@ -20,5 +18,3 @@ function tritColour() {
   var element = document.index;
   element.classList.toggle("monobutton");
 }
-    
-</script>
