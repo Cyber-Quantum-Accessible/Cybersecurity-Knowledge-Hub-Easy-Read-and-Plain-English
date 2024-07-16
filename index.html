@@ -20,10 +20,9 @@
 <nav id="colour-menu" class="colour-menu">
     <br>
      <centre><h2>Change Background Colour</h2></centre>
-    <button onclick="typcolour()"><div id="typ"><img src="Icons/TypIcon.png"/></div></button>
-    <button onclick="deutcolor()"><div id="deut"><img src="Icons/DeutIcon.png"/></div></button>
-    <button onclick="tritcolour()"><div id="trit"><img src="Icons/TritIcon.png"/></div></button>
-    <button onclick="monocolour()"><div id="mono"><img src="Icons/MonoIcon.png"/></div></button>
+    <div id="deut"><button onclick="deutcolor()"><img src="Icons/DeutIcon.png"/></button></div>
+    <div id="trit"><button onclick="tritcolour()"><img src="Icons/TritIcon.png"/></button></div>
+    <div id="mono"><button onclick="monocolour()"><img src="Icons/MonoIcon.png"/></button></div>
 </br>
 </nav>
 
@@ -75,13 +74,6 @@ function tritColour() {
   element.classList.toggle("monobody");
   var element = document.button;
   element.classList.toggle("monobutton");
-}
-
-function typColour() {
-  var element = document.body;
-  element.classList.toggle("typbody");
-  var element = document.button;
-  element.classList.toggle("typbutton");
 }
     
 </script>
