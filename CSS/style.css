@@ -12,7 +12,7 @@
   --button-border-color: black;
 }
 
-.colour-menu {
+.color-menu {
     font-family: sans-serif;
     background: #d3d3d3;
     padding: 5px;;
@@ -25,34 +25,34 @@
     right: 15px;
   }
 
-.colour-menu a, 
-.colour-menu h3 {
+.color-menu a, 
+.color-menu h3 {
     font-size: 0.9em;
     display: block;
     color: black;
   }
 
-.tritbody{
+.tritBody{
   background-color: #FEE1E6;
 }
 
-.tritbutton{
+.tritButton{
   background-color: #6584A3;
 }
 
-.deutbody{
+.deutBody{
   background-color: #E6E596;
 }
 
-.deutbutton{
+.deutButton{
   background-color: #0031A2;
 }
 
-.monobody{
+.monoBody{
   background-color: #CDDCD9;
 }
 
-.monobutton{
+.monoButton{
   background-color: #142225;
 }
 
@@ -147,6 +147,10 @@ body {
   background: -webkit-linear-gradient(rgb(116, 113, 241), rgb(241, 130, 130));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
 }
 
 /* typing effect  */
@@ -161,11 +165,15 @@ body {
   background: -webkit-linear-gradient(rgb(194, 233, 19), rgb(240, 14, 14));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
 }
 
 /* * Button Styling Start */
 
-.mainbutton {
+.mainButton {
   background-color: var(--button-body-color);
   font-size: 24px;
   padding: 10px 50px;
@@ -173,6 +181,6 @@ body {
   border-color: var(--button-border-color);
 }
 
-.mainbutton::focus-visible{
+.mainButton::focus-visible{
   outline: -webkit-focus-ring-color auto 5px;
 }
