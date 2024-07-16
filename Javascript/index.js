@@ -20,12 +20,5 @@ function tritColour() {
   var element = document.index;
   element.classList.toggle("monobutton");
 }
-
-function typColour() {
-  var element = document.body;
-  element.classList.toggle("typbody");
-  var element = document.index;
-  element.classList.toggle("typbutton");
-}
     
 </script>
