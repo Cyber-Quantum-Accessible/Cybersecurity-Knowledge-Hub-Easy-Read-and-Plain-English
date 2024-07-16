@@ -56,22 +56,6 @@
   background-color: #142225;
 }
 
-.typbody{
-  background-color: #C9C5EB;
-}
-
-.typbutton{
-  background-color: #484297;
-}
-
-.defacolour{
-  --main-text-color: black;
-  --main-background-color: #C9C5EB;
-  --link-text-color: white;
-  --button-body-color: #484297;
-  --button-border-color: black;
-}
-
 html.large-text { font-size: 22px; }
 .vis-hidden {
 visibility: hidden;
@@ -181,7 +165,7 @@ body {
 
 /* * Button Styling Start */
 
-.index {
+.mainbutton {
   background-color: var(--button-body-color);
   font-size: 24px;
   padding: 10px 50px;
@@ -189,10 +173,10 @@ body {
   border-color: var(--button-border-color);
 }
 
-.index::first-letter{
+.mainbutton:first-letter{
   text-decoration: underline;
 }
 
-.index:focus-visible{
+.mainbutton:focus-visible{
   outline: -webkit-focus-ring-color auto 5px;
 }
