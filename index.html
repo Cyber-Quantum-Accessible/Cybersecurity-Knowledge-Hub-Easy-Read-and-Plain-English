@@ -19,10 +19,10 @@
 <nav id="color-menu" class="color-menu">
     <center><h3>Change Color Palette</h3>
     <br>
-    <button onclick="typcolour()"><div id="typ"><img src="Icons/TypIcon.png"/></div></button>
-    <button onclick="deutcolor()"><div id="deut"><img src="Icons/DeutIcon.png""/></div></button>
-    <button onclick="tritcolour()"><div id="trit"><img src="Icons/TritIcon.png"/></div></button>
-    <button onclick="monocolour()"><div id="mono"><img src="Icons/MonoIcon.png"/></div></button>
+    <div id="typ"><button onclick="typColour()"><img src="Icons/TypIcon.png"/></button></div>
+    <div id="deut"><button onclick="deutColour()"><img src="Icons/DeutIcon.png""/></button></div>
+    <div id="trit"><button onclick="tritColour()"><img src="Icons/TritIcon.png"/></button></div>
+    <div id="mono"><button onclick="monoColour()"><img src="Icons/MonoIcon.png"/></button></div>
     </nav>
 
     <main>
@@ -51,8 +51,38 @@
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
     <script src="./script.js"></script>
+<script>
+    
+function tritColour() {
+  var element = document.body;
+  element.classList.toggle("tritbody");
+  var element = document.index;
+  element.classList.toggle("tritbutton");
+}
+
+function deutColour() {
+  var element = document.body;
+  element.classList.toggle("deutbody");
+  var element = document.index;
+  element.classList.toggle("deutbutton");
+}
+
+function tritColour() {
+  var element = document.body;
+  element.classList.toggle("monobody");
+  var element = document.index;
+  element.classList.toggle("monobutton");
+}
+
+function typColour() {
+  var element = document.body;
+  element.classList.toggle("typbody");
+  var element = document.index;
+  element.classList.toggle("typbutton");
+}
+    
+</script>
 
 </body>
-</script>
 
 </html>
