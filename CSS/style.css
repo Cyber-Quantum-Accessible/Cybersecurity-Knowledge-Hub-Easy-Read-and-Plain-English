@@ -173,10 +173,6 @@ body {
   border-color: var(--button-border-color);
 }
 
-.mainbutton:first-letter{
-  text-decoration: underline;
-}
-
-.mainbutton:focus-visible{
+.mainbutton::focus-visible{
   outline: -webkit-focus-ring-color auto 5px;
 }
