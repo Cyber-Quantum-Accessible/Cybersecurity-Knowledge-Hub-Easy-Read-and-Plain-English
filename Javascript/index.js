@@ -1,20 +1,20 @@
 function tritColour() {
   var element = document.body;
-  element.classList.toggle("tritBody");
+  element.classList.toggle("tritbody");
   var element = document.mainbutton;
-  element.classList.toggle("tritButton");
+  element.classList.toggle("tritbutton");
 }
 
 function deutColour() {
   var element = document.body;
-  element.classList.toggle("deutBody");
+  element.classList.toggle("deutbody");
   var element = document.mainbutton;
-  element.classList.toggle("deutButton");
+  element.classList.toggle("deutbutton");
 }
 
 function monoColour() {
   var element = document.body;
-  element.classList.toggle("monoBody");
+  element.classList.toggle("monobody");
   var element = document.mainbutton;
-  element.classList.toggle("monoButton");
+  element.classList.toggle("monobutton");
 }
