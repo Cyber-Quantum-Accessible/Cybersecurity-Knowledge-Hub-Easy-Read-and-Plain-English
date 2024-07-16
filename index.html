@@ -18,10 +18,10 @@
 
 <nav id="colour-menu" class="colour-menu">
     <br>
-     <centre><h2>Change Background Colour</h2></centre>
-    <div id="deut"><button onclick="deutcolor()"><img src="Icons/DeutIcon.png"/></button></div>
-    <div id="trit"><button onclick="tritcolour()"><img src="Icons/TritIcon.png"/></button></div>
-    <div id="mono"><button onclick="monocolour()"><img src="Icons/MonoIcon.png"/></button></div>
+     <centre><h3>Change Background Colour</h3></centre>
+    <div id="deut"><button onclick="deutColour()"><img src="Icons/DeutIcon.png"/></button></div>
+    <div id="trit"><button onclick="tritColour()"><img src="Icons/TritIcon.png"/></button></div>
+    <div id="mono"><button onclick="monoColour()"><img src="Icons/MonoIcon.png"/></button></div>
 </br>
 </nav>
 
@@ -53,24 +53,30 @@
     <script src="https://unpkg.com/tippy.js@6"></script>
     <script src="./script.js"></script>
 
-<<<<<<< HEAD
+<script>
+
+function tritColour() {
+  var element = document.body;
+  element.classList.toggle("tritbody");
+  var element = document.index;
+  element.classList.toggle("tritbutton");
+}
+
 function deutColour() {
   var element = document.body;
   element.classList.toggle("deutbody");
-  var element = document.button;
+  var element = document.index;
   element.classList.toggle("deutbutton");
 }
 
 function tritColour() {
   var element = document.body;
   element.classList.toggle("monobody");
-  var element = document.button;
+  var element = document.index;
   element.classList.toggle("monobutton");
 }
-    
+
 </script>
-=======
->>>>>>> 45cddaa (put index.html script into index.js file)
 
 </body>
 </html>
