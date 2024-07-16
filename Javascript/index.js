@@ -12,7 +12,7 @@ function deutColour() {
   element.classList.toggle("deutbutton");
 }
 
-function tritColour() {
+function monoColour() {
   var element = document.body;
   element.classList.toggle("monobody");
   var element = document.index;
