@@ -2,11 +2,7 @@
 @media (min-width:320px) and (max-width:480px){
     main{
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
         align-items: center;
-        position: relative;
-        min-height: 100vh;
     }
     #mainWord{
         font-size: 30px;
@@ -39,11 +35,7 @@
 @media (min-width:481px) and (max-width:768px){
     main{
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
         align-items: center;
-        position: relative;
-        min-height: 100vh;
     }
     #mainWord{
         font-size: 50px;
@@ -76,11 +68,7 @@
 @media (min-width:769px) and (max-width:1023px){
     main{
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
         align-items: center;
-        position: relative;
-        min-height: 100vh;
     }
     #mainWord{
         font-size: 50px;
@@ -113,11 +101,7 @@
 @media (min-width:1024px) and (max-width:1200px){
     main{
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
         align-items: center;
-        position: relative;
-        min-height: 100vh;
     }
     #mainWord{
         font-size: 80px;
@@ -150,11 +134,7 @@
 @media (min-width:1201px){
     main{
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
         align-items: center;
-        position: relative;
-        min-height: 100vh;
     }
     #mainWord{
         font-size: 90px;
