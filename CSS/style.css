@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 * {
   padding: 0;
   margin: 0;
@@ -221,3 +222,5 @@ color: transparent;
 .mainButton::focus-visible{
   outline: -webkit-focus-ring-color auto 5px;
 }
+=======
+>>>>>>> Stashed changes
