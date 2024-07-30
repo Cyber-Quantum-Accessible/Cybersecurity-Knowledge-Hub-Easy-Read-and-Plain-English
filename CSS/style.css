@@ -89,6 +89,15 @@ html.large-text { font-size: 22px; }
 visibility: hidden;
 }
 
+.footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background:#999;
+}
+
 #accessibility-tools-section {
 position: fixed;
 left: 20px;
