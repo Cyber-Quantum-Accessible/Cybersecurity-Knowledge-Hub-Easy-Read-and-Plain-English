@@ -1,9 +1,34 @@
-<<<<<<< Updated upstream
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+*,*:before,*:after{
+
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  
+  }
+  input,textarea{
+  
+  outline:none
+  
+  }
+  
+  
+  button,input[type="submit"]{
+  
+  outline:none;
+  border:none;
+  
+  }
+  
+  button:hover,input[type="submit"]{
+  
+  cursor:pointer;
+  transform: translateY(-0.25em);
+  
+  }
+  
+  li,a{
+  text-decoration:none;
+  }
 
 h1 { 
     display: block;
@@ -222,5 +247,3 @@ color: transparent;
 .mainButton::focus-visible{
   outline: -webkit-focus-ring-color auto 5px;
 }
-=======
->>>>>>> Stashed changes

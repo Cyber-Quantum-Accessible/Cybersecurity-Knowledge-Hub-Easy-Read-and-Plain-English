@@ -1,19 +1,35 @@
-<<<<<<< Updated upstream
-.footer {
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    height:30px;
-    width:100%;
-    background:#999;
-}
+*,*:before,*:after{
 
-=======
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    
+    }
+    input,textarea{
+    
+    outline:none
+    
+    }
+    
+    
+    button,input[type="submit"]{
+    
+    outline:none;
+    border:none;
+    
+    }
+    
+    button:hover,input[type="submit"]{
+    
+    cursor:pointer;
+    transform: translateY(-0.25em);
+    
+    }
+    
+    li,a{
+    text-decoration:none;
+    }
+        
   
   :root {
     --main-text-color: black;
@@ -196,4 +212,3 @@
     outline: -webkit-focus-ring-color auto 5px;
   }
   
->>>>>>> Stashed changes
