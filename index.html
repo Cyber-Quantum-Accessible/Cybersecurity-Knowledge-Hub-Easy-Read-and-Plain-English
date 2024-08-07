@@ -3,15 +3,32 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/responsive.css">
     <link rel="stylesheet" href="./CSS/index.css">
     <link rel="icon" href="./Images/favicon.ico" type ="image/x-icon"/>
     <title> Accessible Cybersecurity Knowledge</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            height: 100vh;
+        }
+
+        .container {
+            width: 800px;
+            border: 5px solid rgb(250, 12, 12);
+            height: 200px;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="container"></div>
 <nav id="colorMenu" class="colorMenu">
     <h3>Change Background Color</h3>
     <div id="deut"><button onclick="deutColor()"><img src="Icons/DeutIcon.png"/></button></div>
