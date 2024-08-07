@@ -36,6 +36,28 @@ h3 {
     font-weight: bold;
 }
 
+/* Colour Menu Styling */
+
+.color-menu {
+    font-family: sans-serif;
+    background: #d3d3d3;
+    padding: 5px;;
+    width: 75px;
+    border: true;
+    border-style: groove;
+    z-index: 100;
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+  }
+
+.color-menu a, 
+.color-menu h3 {
+    font-size: 0.9em;
+    display: block;
+    color: black;
+  }
+
 /* Root & Body Styling */
 
 :root {
