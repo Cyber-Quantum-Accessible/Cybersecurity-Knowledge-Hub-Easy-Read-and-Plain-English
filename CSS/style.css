@@ -1,3 +1,5 @@
+/* Styling for All */
+
 *,*:before,*:after{
 
   padding:0;
@@ -10,25 +12,9 @@
   outline:none
   
   }
+
+/* Header Styling */
   
-  
-  button,input[type="submit"]{
-  
-  outline:none;
-  border:none;
-  
-  }
-  
-  button:hover,input[type="submit"]{
-  
-  cursor:pointer;
-  transform: translateY(-0.25em);
-  
-  }
-  
-  li,a{
-  text-decoration:none;
-  }
 
 h1 { 
     display: block;
@@ -58,6 +44,8 @@ h3 {
     font-weight: bold;
 }
 
+/* Root Elementss */
+
 :root {
   --main-text-color: black;
   --main-background-color: #C9C5EB;
@@ -65,6 +53,8 @@ h3 {
   --button-body-color: #484297;
   --button-border-color: black;
 }
+
+/* Colour Menu Styling */
 
 .color-menu {
     font-family: sans-serif;
@@ -85,6 +75,8 @@ h3 {
     display: block;
     color: black;
   }
+
+/* Colour Menu Root Changes */
 
 .tritBody{
   background-color: #FEE1E6;
@@ -110,10 +102,7 @@ h3 {
   background-color: #142225;
 }
 
-html.large-text { font-size: 22px; }
-.vis-hidden {
-visibility: hidden;
-}
+/* Footer Styling */
 
 .footer {
   position:fixed;
@@ -124,54 +113,7 @@ visibility: hidden;
   background:#999;
 }
 
-#accessibility-tools-section {
-position: fixed;
-left: 20px;
-bottom: 120px;
-color: white;
-z-index: 9998;
-}
-
-#accessibility-tools-bar {
-position: fixed;
-bottom: 0;
-left: 0;
-right: 0;
-color: white;
-z-index: 9999;
-font-size: 20px;
-font-weight: 600;
-}
-
-.tk-tooltips {
-display: none;
-position: absolute;
-top: 0%;
-color: black;
-background-color: #eaeef1;
-padding: 15px;
-border-radius: 8px;
-min-width: 320px;
-transform: translateY(-90%);
-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-}
-
-.tk-tooltips p {
-font-size: 18px;
-line-height: 1.3em;
-font-family: "Poppins", sans-serif;
-font-weight: 500;
-}
-
-.tk-tooltips__arrow {
-position: absolute;
-width: 20px;
-height: 20px;
-background-size: cover;
-transform: rotateZ(45deg);
-transform: translateY(3px);
-background-image: url("https://cdn.prod.website-files.com/651b46748bd161efb9168344/654accdce33a37e9735d5c64_play.png");
-}
+/* Link Styling */
 
 a {
   color: var(--link-text-color);
@@ -180,6 +122,8 @@ a {
 a:visited {
   color: white;
 }
+
+/* Body Styling */
 
 body {
   display: flex;
@@ -193,11 +137,15 @@ body {
   background-color: var(--main-background-color);
 }
 
+/* Styling for TTS Instructions */
+
 .info {
   color: #727272;
   text-align: center;
   margin: 3rem;
 }
+
+/* Index Header Styling */
 
 #mainWord {
   margin: 16px;
@@ -214,36 +162,4 @@ body {
   background-clip: text;
 -webkit-background-clip: text;
 color: transparent;
-}
-
-/* typing effect  */
-.auto_typed {
-  font-size: 30px;
-  color: #ccc;
-  text-transform: uppercase;
-  font-weight: 600;
-  transition: all 1s ease-in-out;
-  position: absolute;
-  bottom: 10%;
-  background: -webkit-linear-gradient(rgb(194, 233, 19), rgb(240, 14, 14));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  background-clip: text;
--webkit-background-clip: text;
-color: transparent;
-}
-
-/* * Button Styling Start */
-
-.mainButton {
-  background-color: var(--button-body-color);
-  font-size: 24px;
-  padding: 10px 50px;
-  border-style: double;
-  border-color: var(--button-border-color);
-}
-
-.mainButton::focus-visible{
-  outline: -webkit-focus-ring-color auto 5px;
 }
